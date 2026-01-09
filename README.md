@@ -17,15 +17,12 @@ This project is also part of my "learning-in-public" journey, where anyone inter
 ## Repository Structure
 
 food-nutrition-analysis/
-│
-├── data/
-│   └── raw/                  # Raw nutrition dataset
-│
-├── notebooks/
-│   └── 01_data_understanding.ipynb
-│       # Initial EDA: structure, quality, and basic insights
-│
-└── README.md
+-- data/
+    ---raw/                  # Raw nutrition dataset
+-- notebooks/
+    --- 01_data_understanding.ipynb
+       # Initial EDA: structure, quality, and basic insights
+-- README.md
 
 
 ## Dataset
