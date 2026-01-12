@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository documents an "end-to-end Data Science project" focused on understanding food nutrition data through a structured and transparent workflow. The goal of this project is to strengthen my data science skills by working on a real-world dataset — from "data exploration to insight generation and modeling" — while sharing the learning process openly.
+This repository documents an end-to-end Data Science project focused on understanding food nutrition data through a structured and transparent workflow. The goal of this project is to strengthen my data science skills by working on a real-world dataset from data exploration to insight generation and modeling while sharing the learning process openly.
 
-This project is also part of my "learning-in-public" journey, where anyone interested can explore the notebooks and learn alongside me.
+This project is also part of my learning-in-public journey, where anyone interested can explore the notebooks and learn alongside me.
 
 ## Objectives
 
@@ -18,6 +18,7 @@ This project is also part of my "learning-in-public" journey, where anyone inter
 
 food-nutrition-analysis/
 -- data/
+    ---Processed             # Cleaned dataset
     ---raw/                  # Raw nutrition dataset
 -- notebooks/
     --- 01_data_understanding.ipynb
@@ -48,6 +49,14 @@ The dataset is already partially cleaned, allowing the project to focus on analy
 * Data quality and missing-value analysis
 * Statistical exploration of key nutritional variables
 * Initial insight discovery (e.g., extreme sugar values)
+
+### Stage 2: Data Cleaning & Validation (Completed)
+
+* Handled missing values using appropriate strategies
+* Removed invalid or inconsistent records
+* Ensured correct data types across all features
+* Validated cleaned dataset using summary statistics
+* Saved final cleaned dataset to data/processed/cleaned_nutrition.csv following best practices
 
 ## Next Steps
 
