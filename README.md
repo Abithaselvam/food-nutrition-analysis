@@ -58,10 +58,20 @@ The dataset is already partially cleaned, allowing the project to focus on analy
 * Validated cleaned dataset using summary statistics
 * Saved final cleaned dataset to data/processed/cleaned_nutrition.csv following best practices
 
+Stage 3: Insight-Driven EDA (Completed)
+
+* Explored deeper questions beyond basic EDA
+* Investigated sugar vs fiber relationships and identified dataset limitations
+* Recognized that the dataset mixes raw ingredients and packaged foods, which affects interpretation
+* Shifted analysis to population-level comparisons using NOVA food processing groups
+
+Found that:
+Minimally processed foods tend to have much lower salt levels
+Ultra-processed foods show lower average fiber
+Sugar alone is not a reliable single indicator of nutrition quality
+
 ## Next Steps
 
-* Insight-driven EDA (e.g., sugar vs fiber analysis)
-* Processing-level (NOVA) based comparisons
 * Feature engineering and health scoring logic
 * Basic machine learning models
 * Clear documentation of findings and decisions
