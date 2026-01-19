@@ -58,7 +58,7 @@ The dataset is already partially cleaned, allowing the project to focus on analy
 * Validated cleaned dataset using summary statistics
 * Saved final cleaned dataset to data/processed/cleaned_nutrition.csv following best practices
 
-Stage 3: Insight-Driven EDA (Completed)
+### Stage 3: Insight-Driven EDA (Completed)
 
 * Explored deeper questions beyond basic EDA
 * Investigated sugar vs fiber relationships and identified dataset limitations
@@ -70,9 +70,23 @@ Minimally processed foods tend to have much lower salt levels
 Ultra-processed foods show lower average fiber
 Sugar alone is not a reliable single indicator of nutrition quality
 
+### Stage 4: Feature Engineering (Completed)
+
+- Designed domain-informed features instead of relying only on raw nutrition values
+- Created new features:
+  - Sugar–Fiber Ratio
+  - Protein Density
+  - Salt Intensity
+  - Ultra-Processed Flag (from NOVA group)
+  - Nutrient Balance Score (composite indicator)
+- Validated newly created features using descriptive statistics and visualization
+- Observed that engineered features improve interpretability compared to individual nutrients
+- Prepared final dataset for model-building phase
+
+This stage strengthened understanding of how domain knowledge and thoughtful transformations can significantly improve data quality before applying machine learning models.
+
 ## Next Steps
 
-* Feature engineering and health scoring logic
 * Basic machine learning models
 * Clear documentation of findings and decisions
 
